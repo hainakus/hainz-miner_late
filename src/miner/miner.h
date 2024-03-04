@@ -7,6 +7,7 @@
 #include <inttypes.h>
 #include <hex.h>
 #include <endian.hpp>
+#include <gmpxx.h>
 #include <boost/thread.hpp>
 #include <vector>
 #include <terminal.h>
@@ -86,8 +87,8 @@ std::unordered_map<std::string, int> coinSelector = {
   {"XEL", XELIS_HASH}
 };
 
-Num oneLsh256;      
-Num maxU256;                                                   
+Num oneLsh256;
+Num maxU256;
 
 void getWork(bool isDev, int algo);
 void sendWork();
