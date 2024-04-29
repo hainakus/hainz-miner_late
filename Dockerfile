@@ -1,4 +1,4 @@
-FROM ubuntu:latest
+FROM ubuntu:22.04
 LABEL authors="ruiti"
 
 RUN apt-get update
@@ -8,11 +8,12 @@ RUN wget https://github.com/boostorg/boost/releases/download/boost-1.82.0/boost-
     && cd boost-1.82.0/ \
     && ./bootstrap.sh --with-toolset=clang  \
     && ./b2 clean \
-    && ./b2 toolset=clang cxxflags=-std=c++20 -stdlib=libc++ linkflags=-stdlib=libc++ link=static \
+    && ./b2 toolset=clang cxxflags=-std=c++20 -stdlib=libc++ linkflags=-stdlib=libc++ link=static
 RUN mkdir app/
 COPY . /app/
-RUN mkdir build
-WORKDIR build
+RUN mkdir -p /app/build
+
+WORKDIR /app/build
 RUN cmake ..
 RUN make -j $(nproc)
 ENTRYPOINT ["top", "-b"]
