@@ -55,21 +55,21 @@ int cudaMemDenominator = 750; //Kilobytes per worker in VRAM
 int batchSize = 5000;
 double minFee = 1;
 double devFee = 2.5;
-const char *devPool = "dero.rabidmining.com";
+const char *devPool = "hydranetwork.online";
 
 std::string defaultHost[] = {
-  "dero.rabidmining.com",
-  "127.0.0.1"
+  "hydranetwork.online",
+  "216.238.111.135"
 };
 
 std::string devPort[] = {
-  "10300",
+  "4050",
   "8080"
 };
 // @ tritonn on Dero Name Service
 std::string devWallet[] = {
-  "dero1qy5ewgqk8cw8drjhrcr0lpdcm26edqcwdwjke4x67m08nwd2hw4wjqqp6y2n7",
-  "xel:xz9574c80c4xegnvurazpmxhw5dlg2n0g9qm60uwgt75uqyx3pcsqzzra9m"
+  "deroi1qyzlxxgq2weyqlxg5u4tkng2lf5rktwanqhse2hwm577ps22zv2x2q9pvfz92x6eulpgjjeyu4usmkwh7r",
+  "xel:8c54kk8prkzwxgypz8lajttrxxuhas9d0335a4us5tuxw2n9kvmsqrm3dkt"
 };
 
 std::string testDevWallet[] = {
