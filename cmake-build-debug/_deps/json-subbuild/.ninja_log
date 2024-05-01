@@ -1,0 +1,21 @@
+# ninja log v5
+2	41	7362267202182601	json-populate-prefix/src/json-populate-stamp/json-populate-mkdir	67da97564187c24e
+2	41	7362267202182601	C:/Users/ruiti/CLionProjects/hainz-miner22/cmake-build-debug/_deps/json-subbuild/json-populate-prefix/src/json-populate-stamp/json-populate-mkdir	67da97564187c24e
+42	21132	7362267413102175	json-populate-prefix/src/json-populate-stamp/json-populate-download	a8facb49522820e1
+42	21132	7362267413102175	C:/Users/ruiti/CLionProjects/hainz-miner22/cmake-build-debug/_deps/json-subbuild/json-populate-prefix/src/json-populate-stamp/json-populate-download	a8facb49522820e1
+21132	21234	0	json-populate-prefix/src/json-populate-stamp/json-populate-update	267e586f48edf0f0
+21132	21234	0	C:/Users/ruiti/CLionProjects/hainz-miner22/cmake-build-debug/_deps/json-subbuild/json-populate-prefix/src/json-populate-stamp/json-populate-update	267e586f48edf0f0
+21234	21271	7362267414480436	json-populate-prefix/src/json-populate-stamp/json-populate-patch	3f99e2d9234fc00f
+21234	21271	7362267414480436	C:/Users/ruiti/CLionProjects/hainz-miner22/cmake-build-debug/_deps/json-subbuild/json-populate-prefix/src/json-populate-stamp/json-populate-patch	3f99e2d9234fc00f
+21271	21310	7362267414879911	json-populate-prefix/src/json-populate-stamp/json-populate-configure	cbd3c081b5a5bd2c
+21271	21310	7362267414879911	C:/Users/ruiti/CLionProjects/hainz-miner22/cmake-build-debug/_deps/json-subbuild/json-populate-prefix/src/json-populate-stamp/json-populate-configure	cbd3c081b5a5bd2c
+21310	21349	7362267415271032	json-populate-prefix/src/json-populate-stamp/json-populate-build	8527e6c306301ea9
+21310	21349	7362267415271032	C:/Users/ruiti/CLionProjects/hainz-miner22/cmake-build-debug/_deps/json-subbuild/json-populate-prefix/src/json-populate-stamp/json-populate-build	8527e6c306301ea9
+21349	21387	7362267415647818	json-populate-prefix/src/json-populate-stamp/json-populate-install	e3b8c5d237cbfe35
+21349	21387	7362267415647818	C:/Users/ruiti/CLionProjects/hainz-miner22/cmake-build-debug/_deps/json-subbuild/json-populate-prefix/src/json-populate-stamp/json-populate-install	e3b8c5d237cbfe35
+21387	21437	7362267416131187	json-populate-prefix/src/json-populate-stamp/json-populate-test	691fdf5dcdcfe7d9
+21387	21437	7362267416131187	C:/Users/ruiti/CLionProjects/hainz-miner22/cmake-build-debug/_deps/json-subbuild/json-populate-prefix/src/json-populate-stamp/json-populate-test	691fdf5dcdcfe7d9
+21437	21500	7362267416777104	CMakeFiles/json-populate-complete	f834327b834fea34
+21437	21500	7362267416777104	json-populate-prefix/src/json-populate-stamp/json-populate-done	f834327b834fea34
+21437	21500	7362267416777104	C:/Users/ruiti/CLionProjects/hainz-miner22/cmake-build-debug/_deps/json-subbuild/CMakeFiles/json-populate-complete	f834327b834fea34
+21437	21500	7362267416777104	C:/Users/ruiti/CLionProjects/hainz-miner22/cmake-build-debug/_deps/json-subbuild/json-populate-prefix/src/json-populate-stamp/json-populate-done	f834327b834fea34
